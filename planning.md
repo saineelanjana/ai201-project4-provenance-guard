@@ -53,7 +53,7 @@ The system dynamically maps confidence evaluations into plaintext strings intend
 
 *   **High-Confidence Human:** `"Verified Original: This text matches patterns consistent with human authorship."`
 *   **Uncertain:** `"Unverified Attribution: Stylistic markers are mixed. Content authenticity cannot be definitively proven."`
-*   **High-Confidence AI:** `"AI-Generated Content: Structural signatures indicate this text was generated using automated linguistic models."`
+*   **High-Confidence AI:** `"Unverified Authenticity: Structural signatures are consistent with AI-generated text. This content has been flagged for review."`
 
 ### 4. Appeals Workflow
 *   **Authorized Submitter:** Content creators whose incoming request matches the original `creator_id` logged during the initial `/submit` classification lifecycle.
